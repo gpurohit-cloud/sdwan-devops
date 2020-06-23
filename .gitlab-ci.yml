@@ -4,8 +4,8 @@ stages:
   - build-control
   - config-control
   - deploy-edges
-  - waitfor-edges
   - attach-templates
+  - waitfor-edges
   - test
 
 image: ciscops/ansible-sdwan
